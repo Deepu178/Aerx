@@ -3,7 +3,7 @@ import { extendTheme } from "@chakra-ui/react";
 import Image from "next/image";
 import theme from './_app'
 import {Box, Badge, SimpleGrid, Spacer, Flex} from "@chakra-ui/react";
-import { First, Second, Third, Fourth } from "./assets";
+import { First, Second, Third, Fourth } from "./Assets/index";
 const property = {
   imageUrl: 'https://bit.ly/2Z4KKcF',
   imageAlt: 'Rear view of modern home with pool',
