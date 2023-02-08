@@ -1,9 +1,11 @@
 import Head from "next/head";
+import { Icon } from "@chakra-ui/react";
 import { extendTheme } from "@chakra-ui/react";
 import Image from "next/image";
 import theme from './_app'
 import {Box, Badge, SimpleGrid, Spacer, Flex} from "@chakra-ui/react";
 import { First, Second, Third, Fourth } from "../Assets/index.jsx";
+import {AcademicCapIcon, EllipsisVerticalIcon} from '@heroicons/react/24/solid';
 const property = {
   imageUrl: 'https://bit.ly/2Z4KKcF',
   imageAlt: 'Rear view of modern home with pool',
@@ -21,7 +23,9 @@ export default function Collection() {
       <Flex px="20">
         <Box flexBasis="1/2">Collection</Box>
         <Spacer />
-        <Box flexBasis="1/2">Menu</Box>
+        <Box flexBasis="1/2">
+          <Icon as={EllipsisVerticalIcon} />
+        </Box>
       </Flex>
       <Box>My Collections - </Box>
       <SimpleGrid columns={2} spacing={10}>
