@@ -5,7 +5,7 @@ import Image from "next/image";
 import theme from './_app'
 import {Box, Badge, SimpleGrid, Spacer, Flex} from "@chakra-ui/react";
 import { First, Second, Third, Fourth } from "../Assets/index.jsx";
-import {AcademicCapIcon, EllipsisVerticalIcon} from '@heroicons/react/24/solid';
+import {AcademicCapIcon, EllipsisVerticalIcon,ChevronRightIcon} from '@heroicons/react/24/solid';
 const property = {
   imageUrl: 'https://bit.ly/2Z4KKcF',
   imageAlt: 'Rear view of modern home with pool',
@@ -19,27 +19,33 @@ const property = {
 
 export default function Collection() {
   return (
-    <Box w={3/12} borderWidth='1px' bg="black" color="white"  borderRadius='lg' overflow='hidden'>
-      <Flex px="20">
+    <Box w={259} borderWidth='1px' bg="black" color="white"  borderRadius='lg' overflow='hidden' marginY={24} h="652" marginLeft={1157} marginTop={24} className="rounded-3xl" paddingX={8} paddingY={16}>
+      <Flex px="20" marginTop={21}>
         <Box flexBasis="1/2">Collection</Box>
         <Spacer />
         <Box flexBasis="1/2">
           <Icon as={EllipsisVerticalIcon} />
         </Box>
       </Flex>
-      <Box>My Collections - </Box>
+      <Flex h={32} w={235} className="rounded-xl" bg="blue" paddingX={10}>
+        <Box>My Collections</Box>
+        <Spacer />
+        <Box>
+          <Icon as={ChevronRightIcon} />
+        </Box>
+      </Flex>
       <SimpleGrid columns={2} spacing={10}>
-  <Box bg='tomato' height='80px'>
+  <Box height={146} width={111}>
     <Box>
     <Badge borderRadius='full' px='2' zIndex="100" colorScheme='blue' position="absolute">
             New
           </Badge>
-    <Image src={First} alt={property.imageAlt} zIndex="0" w="12" h="12"/>
+    <Image src={First} alt={property.imageAlt} width={111} height={146}/>
     </Box>
  
   
   </Box>
-  <Box bg='tomato' height='80px'>
+  <Box bg='tomato' height={146} width={111}>
   <Box>
     <Badge borderRadius='full' px='2' zIndex="100" colorScheme='blue' position="absolute">
             New
@@ -47,7 +53,7 @@ export default function Collection() {
     <Image src={Second} alt={property.imageAlt} zIndex="0" w="12" h="12" />
     </Box>
   </Box>
-  <Box bg='tomato' height='80px'>
+  <Box bg='tomato' height={146} width={111}>
   <Box>
     <Badge borderRadius='full' px='2' zIndex="100" colorScheme='blue' position="absolute">
             New
@@ -55,7 +61,7 @@ export default function Collection() {
     <Image src={Third} alt={property.imageAlt} zIndex="0" w="12" h="12"/>
     </Box>
   </Box>
-  <Box bg='tomato' height='80px'>
+  <Box bg='tomato' height={146} width={111}>
   <Box>
     <Badge borderRadius='full' px='2' zIndex="100" colorScheme='blue' position="absolute">
             New
@@ -63,7 +69,7 @@ export default function Collection() {
     <Image src={Fourth} alt={property.imageAlt} zIndex="0" w="12" h="12"/>
     </Box>
   </Box>
-  <Box bg='tomato' height='80px'>
+  <Box bg='tomato' height={146} width={111}>
   <Box>
     <Badge borderRadius='full' px='2' zIndex="100" colorScheme='blue' position="absolute">
             New
@@ -71,7 +77,7 @@ export default function Collection() {
     <Image src={First} alt={property.imageAlt} zIndex="0" w="12" h="12"/>
     </Box>
   </Box>
-  <Box bg='tomato' height='80px'>
+  <Box bg='tomato' height={146} width={111}>
   <Box>
     <Badge borderRadius='full' px='2' zIndex="100" colorScheme='blue' position="absolute">
             New
@@ -79,7 +85,7 @@ export default function Collection() {
     <Image src={Second} alt={property.imageAlt} zIndex="0" w="12" h="12"/>
     </Box>
   </Box>
-  <Box bg='tomato' height='80px'>
+  <Box bg='tomato' width={111} height={146}>
   <Box>
     <Badge borderRadius='full' px='2' zIndex="100" colorScheme='blue' position="absolute">
             New
@@ -87,7 +93,7 @@ export default function Collection() {
     <Image src={Third} alt={property.imageAlt} zIndex="0" w="12" h="12"/>
     </Box>
   </Box>
-  <Box bg='tomato' height='80px'>
+  <Box bg='tomato' width={111} height={146}>
   <Box>
     <Badge borderRadius='full' px='2' zIndex="100" colorScheme='blue' position="absolute">
             New
