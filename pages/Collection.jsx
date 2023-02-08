@@ -37,7 +37,7 @@ export default function Collection() {
       <SimpleGrid columns={2} spacing={12}>
   <Box >
   
-    <Badge borderRadius='full' background={"rgba(255, 255, 255, 0.15)"} backdropBlur="lg" className="rounded-3xl" px='12' py="3" zIndex="100" colorScheme='blue' position="absolute" ml="10" mt="105">
+    <Badge borderRadius='full' background={"rgba(255, 255, 255, 0.15)"}  className="rounded-3xl backdrop-blur-lg" px='12' py="3" zIndex="100" colorScheme='blue' position="absolute" ml="10" mt="105">
             12,03 AEX
           </Badge>
     <Image src={First} alt={property.imageAlt} className="h-36 w-28 rounded-lg"/>
@@ -47,7 +47,7 @@ export default function Collection() {
   <Box height={146} width={111}>
   <Box>
     
-  <Badge borderRadius='full' bg={"rgba(255, 255, 255, 0.15)"} className="rounded-3xl" px='12' py="3" zIndex="100" colorScheme='blue' position="absolute" ml="10" mt="105">
+  <Badge borderRadius='full' bg={"rgba(255, 255, 255, 0.15)"} className="rounded-3xl backdrop-blur-lg" px='12' py="3" zIndex="100" colorScheme='blue' position="absolute" ml="10" mt="105">
             12,03 AEX
           </Badge>
     
@@ -56,7 +56,7 @@ export default function Collection() {
   </Box>
   <Box height={146} width={111}>
   <Box>
-  <Badge borderRadius='full' bg={"rgba(255, 255, 255, 0.15)"} className="rounded-3xl" px='12' py="3" zIndex="100" colorScheme='blue' position="absolute" ml="10" mt="105">
+  <Badge borderRadius='full' bg={"rgba(255, 255, 255, 0.15)"} className="rounded-3xl backdrop-blur-lg" px='12' py="3" zIndex="100" colorScheme='blue' position="absolute" ml="10" mt="105">
             12,03 AEX
           </Badge>
     <Image src={Third} alt={property.imageAlt} zIndex="0"  className="h-36 w-28 rounded-lg"/>
@@ -64,7 +64,7 @@ export default function Collection() {
   </Box>
   <Box height={146} width={111}>
   <Box>
-  <Badge borderRadius='full' bg={"rgba(255, 255, 255, 0.15)"} className="rounded-3xl" px='12' py="3" zIndex="100" colorScheme='blue' position="absolute" ml="10" mt="105">
+  <Badge borderRadius='full' bg={"rgba(255, 255, 255, 0.15)"} className="rounded-3xl backdrop-blur-lg" px='12' py="3" zIndex="100" colorScheme='blue' position="absolute" ml="10" mt="105">
             12,03 AEX
           </Badge>
     <Image src={Fourth} alt={property.imageAlt} zIndex="0"   className="h-36 w-28 rounded-lg" />
@@ -72,7 +72,7 @@ export default function Collection() {
   </Box>
   <Box height={146} width={111}>
   <Box>
-  <Badge borderRadius='full' bg={"rgba(255, 255, 255, 0.15)"} className="rounded-3xl" px='12' py="3" zIndex="100" colorScheme='blue' position="absolute" ml="10" mt="105">
+  <Badge borderRadius='full' bg={"rgba(255, 255, 255, 0.15)"} className="rounded-3xl backdrop-blur-lg" px='12' py="3" zIndex="100" colorScheme='blue' position="absolute" ml="10" mt="105">
             12,03 AEX
           </Badge>
     <Image src={First} alt={property.imageAlt} zIndex="0"   className="h-36 w-28 rounded-lg" />
@@ -80,7 +80,7 @@ export default function Collection() {
   </Box>
   <Box height={146} width={111}>
   <Box>
-  <Badge borderRadius='full' bg={"rgba(255, 255, 255, 0.15)"} className="rounded-3xl" px='12' py="3" zIndex="100" colorScheme='blue' position="absolute" ml="10" mt="105">
+  <Badge borderRadius='full' bg={"rgba(255, 255, 255, 0.15)"} className="rounded-3xl backdrop-blur-lg" px='12' py="3" zIndex="100" colorScheme='blue' position="absolute" ml="10" mt="105">
             12,03 AEX
           </Badge>
     <Image src={Second} alt={property.imageAlt} zIndex="0"   className="h-36 w-28 rounded-lg" />
