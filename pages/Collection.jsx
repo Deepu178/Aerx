@@ -34,71 +34,70 @@ export default function Collection() {
           <Icon as={ChevronRightIcon} />
         </Box>
       </Flex>
-      <SimpleGrid columns={2} spacing={10}>
-  <Box height={146} width={111}>
-    <Box>
-    <Badge borderRadius='full' px='2' zIndex="100" colorScheme='blue' position="absolute">
+      <SimpleGrid columns={2} spacing={12}>
+  <Box >
+  
+    {/* <Badge borderRadius='full' px='2' zIndex="100" colorScheme='blue' position="absolute">
             New
-          </Badge>
-    <Image src={First} alt={property.imageAlt} width={111} height={146}/>
-    </Box>
+          </Badge> */}
+    <Image src={First} alt={property.imageAlt} className="h-36 w-28 rounded-lg"/>
  
   
   </Box>
-  <Box bg='tomato' height={146} width={111}>
+  <Box height={146} width={111}>
   <Box>
     <Badge borderRadius='full' px='2' zIndex="100" colorScheme='blue' position="absolute">
             New
           </Badge>
-    <Image src={Second} alt={property.imageAlt} zIndex="0" w="12" h="12" />
+    <Image src={Second} alt={property.imageAlt} zIndex="0"  className="h-36 w-28 rounded-lg" />
     </Box>
   </Box>
-  <Box bg='tomato' height={146} width={111}>
+  <Box height={146} width={111}>
   <Box>
     <Badge borderRadius='full' px='2' zIndex="100" colorScheme='blue' position="absolute">
             New
           </Badge>
-    <Image src={Third} alt={property.imageAlt} zIndex="0" w="12" h="12"/>
+    <Image src={Third} alt={property.imageAlt} zIndex="0"  className="h-36 w-28 rounded-lg"/>
     </Box>
   </Box>
-  <Box bg='tomato' height={146} width={111}>
+  <Box height={146} width={111}>
   <Box>
     <Badge borderRadius='full' px='2' zIndex="100" colorScheme='blue' position="absolute">
             New
           </Badge>
-    <Image src={Fourth} alt={property.imageAlt} zIndex="0" w="12" h="12"/>
+    <Image src={Fourth} alt={property.imageAlt} zIndex="0"   className="h-36 w-28 rounded-lg" />
     </Box>
   </Box>
-  <Box bg='tomato' height={146} width={111}>
+  <Box height={146} width={111}>
   <Box>
     <Badge borderRadius='full' px='2' zIndex="100" colorScheme='blue' position="absolute">
             New
           </Badge>
-    <Image src={First} alt={property.imageAlt} zIndex="0" w="12" h="12"/>
+    <Image src={First} alt={property.imageAlt} zIndex="0"   className="h-36 w-28 rounded-lg" />
     </Box>
   </Box>
-  <Box bg='tomato' height={146} width={111}>
+  <Box height={146} width={111}>
   <Box>
     <Badge borderRadius='full' px='2' zIndex="100" colorScheme='blue' position="absolute">
             New
           </Badge>
-    <Image src={Second} alt={property.imageAlt} zIndex="0" w="12" h="12"/>
+    <Image src={Second} alt={property.imageAlt} zIndex="0"   className="h-36 w-28 rounded-lg" />
     </Box>
   </Box>
-  <Box bg='tomato' width={111} height={146}>
+  <Box width={111} height={146}>
   <Box>
     <Badge borderRadius='full' px='2' zIndex="100" colorScheme='blue' position="absolute">
             New
           </Badge>
-    <Image src={Third} alt={property.imageAlt} zIndex="0" w="12" h="12"/>
+    <Image src={Third} alt={property.imageAlt} zIndex="0"   className="h-36 w-28 rounded-lg" />
     </Box>
   </Box>
-  <Box bg='tomato' width={111} height={146}>
+  <Box width={111} height={146}>
   <Box>
     <Badge borderRadius='full' px='2' zIndex="100" colorScheme='blue' position="absolute">
             New
           </Badge>
-    <Image src={Fourth} alt={property.imageAlt} zIndex="0" w="12" h="12"/>
+    <Image src={Fourth} alt={property.imageAlt} zIndex="0"   className="h-36 w-28 rounded-lg" />
     </Box>  
   </Box>
 </SimpleGrid>
