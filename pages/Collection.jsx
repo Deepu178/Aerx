@@ -3,7 +3,7 @@ import { extendTheme } from "@chakra-ui/react";
 import Image from "next/image";
 import theme from './_app'
 import {Box, Badge, SimpleGrid, Spacer, Flex} from "@chakra-ui/react";
-import SecondImg from './Assets/SecondImg.jpg'
+import { First, Second, Third, Fourth } from "./assets";
 const property = {
   imageUrl: 'https://bit.ly/2Z4KKcF',
   imageAlt: 'Rear view of modern home with pool',
@@ -30,7 +30,7 @@ export default function Collection() {
     <Badge borderRadius='full' px='2' zIndex="100" colorScheme='blue' position="absolute">
             New
           </Badge>
-    <Image src={SecondImg} alt={property.imageAlt} zIndex="0" w="12" h="12"/>
+    <Image src={First} alt={property.imageAlt} zIndex="0" w="12" h="12"/>
     </Box>
  
   
@@ -40,7 +40,7 @@ export default function Collection() {
     <Badge borderRadius='full' px='2' zIndex="100" colorScheme='blue' position="absolute">
             New
           </Badge>
-    <Image src={SecondImg} alt={property.imageAlt} zIndex="0" w="12" h="12" />
+    <Image src={Second} alt={property.imageAlt} zIndex="0" w="12" h="12" />
     </Box>
   </Box>
   <Box bg='tomato' height='80px'>
@@ -48,7 +48,7 @@ export default function Collection() {
     <Badge borderRadius='full' px='2' zIndex="100" colorScheme='blue' position="absolute">
             New
           </Badge>
-    <Image src={SecondImg} alt={property.imageAlt} zIndex="0" w="12" h="12"/>
+    <Image src={Third} alt={property.imageAlt} zIndex="0" w="12" h="12"/>
     </Box>
   </Box>
   <Box bg='tomato' height='80px'>
@@ -56,7 +56,7 @@ export default function Collection() {
     <Badge borderRadius='full' px='2' zIndex="100" colorScheme='blue' position="absolute">
             New
           </Badge>
-    <Image src={SecondImg} alt={property.imageAlt} zIndex="0" w="12" h="12"/>
+    <Image src={Fourth} alt={property.imageAlt} zIndex="0" w="12" h="12"/>
     </Box>
   </Box>
   <Box bg='tomato' height='80px'>
@@ -64,7 +64,7 @@ export default function Collection() {
     <Badge borderRadius='full' px='2' zIndex="100" colorScheme='blue' position="absolute">
             New
           </Badge>
-    <Image src={SecondImg} alt={property.imageAlt} zIndex="0" w="12" h="12"/>
+    <Image src={First} alt={property.imageAlt} zIndex="0" w="12" h="12"/>
     </Box>
   </Box>
   <Box bg='tomato' height='80px'>
@@ -72,7 +72,7 @@ export default function Collection() {
     <Badge borderRadius='full' px='2' zIndex="100" colorScheme='blue' position="absolute">
             New
           </Badge>
-    <Image src={SecondImg} alt={property.imageAlt} zIndex="0" w="12" h="12"/>
+    <Image src={Second} alt={property.imageAlt} zIndex="0" w="12" h="12"/>
     </Box>
   </Box>
   <Box bg='tomato' height='80px'>
@@ -80,7 +80,7 @@ export default function Collection() {
     <Badge borderRadius='full' px='2' zIndex="100" colorScheme='blue' position="absolute">
             New
           </Badge>
-    <Image src={SecondImg} alt={property.imageAlt} zIndex="0" w="12" h="12"/>
+    <Image src={Third} alt={property.imageAlt} zIndex="0" w="12" h="12"/>
     </Box>
   </Box>
   <Box bg='tomato' height='80px'>
@@ -88,7 +88,7 @@ export default function Collection() {
     <Badge borderRadius='full' px='2' zIndex="100" colorScheme='blue' position="absolute">
             New
           </Badge>
-    <Image src={SecondImg} alt={property.imageAlt} zIndex="0" w="12" h="12"/>
+    <Image src={Fourth} alt={property.imageAlt} zIndex="0" w="12" h="12"/>
     </Box>  
   </Box>
 </SimpleGrid>
