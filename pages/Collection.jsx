@@ -50,6 +50,7 @@ export default function Collection() {
   bgPosition="center"
   bgRepeat="no-repeat"
   backgroundSize={"100% 100%"}
+  className="hover:scale-110"
   >
   
     <Badge borderRadius='full' background={"rgba(255, 255, 255, 0.15)"}  className="rounded-3xl backdrop-blur-lg" px='12' py="3" zIndex="100" colorScheme='blue' position="absolute" ml="10" mt="105">
@@ -66,6 +67,7 @@ export default function Collection() {
   bgPosition="center"
   bgRepeat="no-repeat"
   backgroundSize={"100% 100%"}
+  className="hover:scale-110"
   >
     
   <Badge borderRadius='full' bg={"rgba(255, 255, 255, 0.15)"} className="rounded-3xl backdrop-blur-lg" px='12' py="3" zIndex="100" colorScheme='blue' position="absolute" ml="10" mt="105">
@@ -82,6 +84,7 @@ export default function Collection() {
   bgPosition="center"
   bgRepeat="no-repeat"
   backgroundSize={"100% 100%"}
+  className="hover:scale-110"
   >
   <Badge borderRadius='full' bg={"rgba(255, 255, 255, 0.15)"} className="rounded-3xl backdrop-blur-lg" px='12' py="3" zIndex="100" colorScheme='blue' position="absolute" ml="10" mt="105">
             12,03 AEX
@@ -96,6 +99,7 @@ export default function Collection() {
   bgRepeat="no-repeat"
   backgroundSize={"100% 100%"}
   borderRadius={10}
+  className="hover:scale-110"
   >
   <Badge borderRadius='full' bg={"rgba(255, 255, 255, 0.15)"} className="rounded-3xl backdrop-blur-lg" px='12' py="3" zIndex="100" colorScheme='blue' position="absolute" ml="10" mt="105">
             12,03 AEX
@@ -110,6 +114,7 @@ export default function Collection() {
   bgPosition="center"
   bgRepeat="no-repeat"
   backgroundSize={"100% 100%"}
+  className="hover:scale-110"
   >
   <Badge borderRadius='full' bg={"rgba(255, 255, 255, 0.15)"} className="rounded-3xl backdrop-blur-lg" px='12' py="3" zIndex="100" colorScheme='blue' position="absolute" ml="10" mt="105">
             12,03 AEX
@@ -124,6 +129,7 @@ export default function Collection() {
   bgPosition="center"
   bgRepeat="no-repeat"
   backgroundSize={"100% 100%"}
+  className="hover:scale-110"
   >
   <Badge borderRadius='full' bg={"rgba(255, 255, 255, 0.15)"} className="rounded-3xl backdrop-blur-lg" px='12' py="3" zIndex="100" colorScheme='blue' position="absolute" ml="10" mt="105">
             12,03 AEX
@@ -138,6 +144,7 @@ export default function Collection() {
   bgPosition="center"
   bgRepeat="no-repeat"
   backgroundSize={"100% 100%"}
+  className="hover:scale-110"
   >
     
     {/* <Image src={Third} alt={property.imageAlt} zIndex="0"   className="h-36 w-28 rounded-lg" /> */}
@@ -150,6 +157,7 @@ export default function Collection() {
   bgPosition="center"
   bgRepeat="no-repeat"
   backgroundSize={"100% 100%"}
+  className="hover:scale-110"
   >
 
     {/* <Image src={Fourth} alt={property.imageAlt} zIndex="0"   className="h-36 w-28 rounded-lg" /> */}
