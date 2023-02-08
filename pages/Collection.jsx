@@ -19,15 +19,15 @@ const property = {
 
 export default function Collection() {
   return (
-    <Box w={259} borderWidth='1px' bg="black" color="white"  borderRadius='lg' overflow='hidden' marginY={24} h="652" marginLeft={1157} marginTop={24} className="rounded-3xl" paddingX={8} paddingY={16}>
-      <Flex px="20" marginTop={21}>
+    <Box w={259} borderWidth='1px' bg="black" color="white"  borderRadius='lg' overflow='hidden' h="652" marginLeft={1157} marginTop={24} className="rounded-3xl" paddingX={8} paddingY={16}>
+      <Flex marginX={"auto"} marginTop={1} fontSize={14} fontFamily={"sans-serif"} paddingX={10}>
         <Box flexBasis="1/2">Collection</Box>
         <Spacer />
         <Box flexBasis="1/2">
           <Icon as={EllipsisVerticalIcon} />
         </Box>
       </Flex>
-      <Flex h={32} w={235} className="rounded-xl" bg="blue" paddingX={10}>
+      <Flex h={32} w={235} className="rounded-xl" bg="blue" paddingX={10} marginTop={10} marginBottom={10} marginX={"auto"} paddingTop={2}>
         <Box>My Collections</Box>
         <Spacer />
         <Box>
@@ -37,66 +37,64 @@ export default function Collection() {
       <SimpleGrid columns={2} spacing={12}>
   <Box >
   
-    {/* <Badge borderRadius='full' px='2' zIndex="100" colorScheme='blue' position="absolute">
-            New
-          </Badge> */}
+    <Badge borderRadius='full' background={"rgba(255, 255, 255, 0.15)"} backdropBlur="lg" className="rounded-3xl" px='12' py="3" zIndex="100" colorScheme='blue' position="absolute" ml="10" mt="105">
+            12,03 AEX
+          </Badge>
     <Image src={First} alt={property.imageAlt} className="h-36 w-28 rounded-lg"/>
  
   
   </Box>
   <Box height={146} width={111}>
   <Box>
-    <Badge borderRadius='full' px='2' zIndex="100" colorScheme='blue' position="absolute">
-            New
+    
+  <Badge borderRadius='full' bg={"rgba(255, 255, 255, 0.15)"} className="rounded-3xl" px='12' py="3" zIndex="100" colorScheme='blue' position="absolute" ml="10" mt="105">
+            12,03 AEX
           </Badge>
+    
     <Image src={Second} alt={property.imageAlt} zIndex="0"  className="h-36 w-28 rounded-lg" />
     </Box>
   </Box>
   <Box height={146} width={111}>
   <Box>
-    <Badge borderRadius='full' px='2' zIndex="100" colorScheme='blue' position="absolute">
-            New
+  <Badge borderRadius='full' bg={"rgba(255, 255, 255, 0.15)"} className="rounded-3xl" px='12' py="3" zIndex="100" colorScheme='blue' position="absolute" ml="10" mt="105">
+            12,03 AEX
           </Badge>
     <Image src={Third} alt={property.imageAlt} zIndex="0"  className="h-36 w-28 rounded-lg"/>
     </Box>
   </Box>
   <Box height={146} width={111}>
   <Box>
-    <Badge borderRadius='full' px='2' zIndex="100" colorScheme='blue' position="absolute">
-            New
+  <Badge borderRadius='full' bg={"rgba(255, 255, 255, 0.15)"} className="rounded-3xl" px='12' py="3" zIndex="100" colorScheme='blue' position="absolute" ml="10" mt="105">
+            12,03 AEX
           </Badge>
     <Image src={Fourth} alt={property.imageAlt} zIndex="0"   className="h-36 w-28 rounded-lg" />
     </Box>
   </Box>
   <Box height={146} width={111}>
   <Box>
-    <Badge borderRadius='full' px='2' zIndex="100" colorScheme='blue' position="absolute">
-            New
+  <Badge borderRadius='full' bg={"rgba(255, 255, 255, 0.15)"} className="rounded-3xl" px='12' py="3" zIndex="100" colorScheme='blue' position="absolute" ml="10" mt="105">
+            12,03 AEX
           </Badge>
     <Image src={First} alt={property.imageAlt} zIndex="0"   className="h-36 w-28 rounded-lg" />
     </Box>
   </Box>
   <Box height={146} width={111}>
   <Box>
-    <Badge borderRadius='full' px='2' zIndex="100" colorScheme='blue' position="absolute">
-            New
+  <Badge borderRadius='full' bg={"rgba(255, 255, 255, 0.15)"} className="rounded-3xl" px='12' py="3" zIndex="100" colorScheme='blue' position="absolute" ml="10" mt="105">
+            12,03 AEX
           </Badge>
     <Image src={Second} alt={property.imageAlt} zIndex="0"   className="h-36 w-28 rounded-lg" />
     </Box>
   </Box>
   <Box width={111} height={146}>
   <Box>
-    <Badge borderRadius='full' px='2' zIndex="100" colorScheme='blue' position="absolute">
-            New
-          </Badge>
+    
     <Image src={Third} alt={property.imageAlt} zIndex="0"   className="h-36 w-28 rounded-lg" />
     </Box>
   </Box>
   <Box width={111} height={146}>
   <Box>
-    <Badge borderRadius='full' px='2' zIndex="100" colorScheme='blue' position="absolute">
-            New
-          </Badge>
+
     <Image src={Fourth} alt={property.imageAlt} zIndex="0"   className="h-36 w-28 rounded-lg" />
     </Box>  
   </Box>
