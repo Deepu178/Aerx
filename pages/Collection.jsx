@@ -19,16 +19,17 @@ const property = {
 
 export default function Collection() {
   return (
+    <Box bg={"black"} height={2000} marginTop={0}>
     <Box w={259} borderWidth='1px' borderRadius={15} bg="black" color="white"  overflow='hidden' h="652" marginLeft={1157} marginTop={24} className="rounded-3xl" paddingX={8} paddingY={16}>
       <Flex marginX={"auto"} marginTop={1} fontSize={14} fontFamily={"sans-serif"} paddingX={10}>
         
         <Box flexBasis="1/2" fontSize={14}>
-        <Box>
-          <Box background={"rgba(255, 255, 255, 0.4)"} width={28} height={17} marginTop={3} marginLeft={2} position={"absolute"} borderRadius={3} className="skew-x-12 skew-y-20deg rotate-45"></Box>
-          <Box background={"#FFC93F"} width={28} height={18} position={"absolute"} marginTop={7} marginLeft={2} borderRadius={3} className="skew-x-12 rotate-45"></Box>
-          <Box background={"#EDAF10"} width={28} height={18} position={"absolute"} marginTop={11} marginLeft={2} borderRadius={3} className="skew-x-12 rotate-45"></Box>
+        <Box className="-rotate-[22deg]" position={"absolute"}>
+          <Box background={"rgba(255, 255, 255, 0.4)"} width={18} height={17} marginTop={3} marginLeft={2} position={"absolute"} className="skew-y-[20deg] skew-x-[45deg]" rounded={2} zIndex={3}></Box>
+          <Box background={"#FFC93F"} width={18} height={18} position={"absolute"} marginTop={7} marginLeft={2} className="skew-x-[45deg] skew-y-[20deg]" zIndex={2} rounded={2}></Box>
+          <Box background={"#EDAF10"} width={18} height={18} position={"absolute"} marginTop={11} marginLeft={2}  className="skew-x-[45deg] skew-y-[20deg]" zIndex={1} rounded={2}></Box>
           </Box>
-          <Box marginLeft={42}>Collection</Box>
+          <Box marginLeft={56}>Collection</Box>
           </Box>
         <Spacer />
         <Box flexBasis="1/2" fontSize={14}>
@@ -166,6 +167,6 @@ export default function Collection() {
 </SimpleGrid>
 {/* <Image src={SecondImg} /> */}
     </Box>
-    
+    </Box>
   )
 }
