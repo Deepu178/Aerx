@@ -24,13 +24,13 @@ export default function Collection() {
     <Box w={266} borderRadius={15} bg="rgba(255, 255, 255, 0.07)" color="white"  overflow='hidden' height={652} marginLeft={1150} className="rounded-3xl overflow-y-hidden" marginTop={24}>
       <Flex marginX={"auto"} marginTop={16} fontSize={14} fontFamily={"sans-serif"} paddingX={10}>
         
-        <Box flexBasis="1/2" fontSize={14} marginLeft={14} marginBottom={5}>
-        <Box className="-rotate-[22deg]" position={"absolute"}>
-          <Box background={"rgba(255, 255, 255, 0.4)"} width={18} height={17} marginTop={3} marginLeft={2} position={"absolute"} className="skew-y-[20deg] skew-x-[45deg]" rounded={2} zIndex={3}></Box>
-          <Box background={"#FFC93F"} width={18} height={18} position={"absolute"} marginTop={7} marginLeft={2} className="skew-x-[45deg] skew-y-[20deg]" zIndex={2} rounded={2}></Box>
-          <Box background={"#EDAF10"} width={18} height={18} position={"absolute"} marginTop={11} marginLeft={2}  className="skew-x-[45deg] skew-y-[20deg]" zIndex={1} rounded={2}></Box>
+        <Box flexBasis="1/2" fontSize={14} marginLeft={14} marginBottom={3}>
+        <Box className="-rotate-[27deg]" position={"absolute"}>
+          <Box background={"rgba(255, 255, 255, 0.4)"} width={15} height={15} marginTop={3} marginLeft={2} position={"absolute"} className="skew-y-[20deg] skew-x-[45deg]" rounded={2} zIndex={3}></Box>
+          <Box background={"#FFC93F"} width={15} height={15} position={"absolute"} marginTop={9} marginLeft={2} className="skew-x-[45deg] skew-y-[20deg]" zIndex={2} rounded={2}></Box>
+          <Box background={"#EDAF10"} width={15} height={15} position={"absolute"} marginTop={14} marginLeft={2}  className="skew-x-[45deg] skew-y-[20deg]" zIndex={1} rounded={2}></Box>
           </Box>
-          <Box marginLeft={50} fontSize={14} fontWeight={"medium"}>Collections</Box>
+          <Box marginLeft={46}  fontSize={14} fontWeight={"medium"}>Collections</Box>
           </Box>
         <Spacer />
         <Box flexBasis="1/2" marginRight={2} className="rotate-90">
@@ -43,7 +43,7 @@ export default function Collection() {
           <Box color={"white"} fontSize={12} marginLeft={12}>My Collections</Box>
         <Spacer />
         <Box>
-          <Icon as={ChevronRightIcon} marginBottom={4} />
+          <Icon as={ChevronRightIcon} fontSize={18} />
         </Box>
       </Flex>
       <SimpleGrid columns={2} spacing={12} marginTop={12} paddingX={12}>
