@@ -44,7 +44,7 @@ export default function Collection() {
           <Box color={"white"} fontSize={12} marginY={10}>My Collections</Box>
         <Spacer />
         <Box marginY={11}>
-          <Icon as={ChevronRightIcon} fontSize={10} fontWeight={"bold"}/>
+          <Icon as={ChevronRightIcon} fontSize={18} fontWeight={"extrabold"} />
         </Box>
       </Flex>
       <SimpleGrid columns={2} gap={12} marginTop={12} paddingX={12}>
