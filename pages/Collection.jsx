@@ -6,7 +6,8 @@ import theme from './_app'
 import {Box, Badge, SimpleGrid, Spacer, Flex} from "@chakra-ui/react";
 import { First, Second, Third, Fourth } from "../Assets/index.jsx";
 import {AcademicCapIcon, EllipsisVerticalIcon,ChevronRightIcon} from '@heroicons/react/24/solid';
-import {RxDotFilled} from 'react-icons/rx'
+import {RxDotFilled} from 'react-icons/rx';
+import "@fontsource/open-sans";
 const property = {
   imageUrl: 'https://bit.ly/2Z4KKcF',
   imageAlt: 'Rear view of modern home with pool',
@@ -20,33 +21,33 @@ const property = {
 
 export default function Collection() {
   return (
-    <Box bg={"black"} height={"800"} className="overflow-y-hidden" >
+    <Box bg={"black"} height={"800"} className="overflow-y-hidden font-open">
     <Box w={266} borderRadius={15} bg="rgba(255, 255, 255, 0.07)" color="white"  overflow='hidden' height={652} marginLeft={1150} className="rounded-3xl overflow-y-hidden" marginTop={24}>
-      <Flex marginX={"auto"} marginTop={16} fontSize={14} fontFamily={"sans-serif"} paddingX={10}>
+      <Flex marginX={"auto"} height={12} marginTop={15} fontSize={14} fontFamily={"sans-serif"} paddingX={10}>
         
-        <Box flexBasis="1/2" fontSize={14} marginLeft={14} marginBottom={3}>
+        <Box flexBasis="1/2" fontSize={14} marginLeft={14} marginRight={25} >
         <Box className="-rotate-[27deg]" position={"absolute"}>
-          <Box background={"rgba(255, 255, 255, 0.4)"} width={15} height={15} marginTop={3} marginLeft={2} position={"absolute"} className="skew-y-[20deg] skew-x-[45deg]" rounded={2} zIndex={3}></Box>
-          <Box background={"#FFC93F"} width={15} height={15} position={"absolute"} marginTop={9} marginLeft={2} className="skew-x-[45deg] skew-y-[20deg]" zIndex={2} rounded={2}></Box>
-          <Box background={"#EDAF10"} width={15} height={15} position={"absolute"} marginTop={14} marginLeft={2}  className="skew-x-[45deg] skew-y-[20deg]" zIndex={1} rounded={2}></Box>
+          <Box background={"rgba(255, 255, 255, 0.4)"} width={15} height={15} marginLeft={2} position={"absolute"} className="skew-y-[20deg] skew-x-[45deg]" rounded={2} zIndex={3}></Box>
+          <Box background={"#FFC93F"} width={15} height={15}  marginTop={7} marginLeft={2} className="skew-x-[45deg] skew-y-[20deg]" zIndex={2} rounded={2}></Box>
+          <Box background={"#EDAF10"} width={15} height={15}  marginLeft={2} marginTop={1}  className="skew-x-[45deg] skew-y-[20deg]" zIndex={1} rounded={2}></Box>
           </Box>
-          <Box marginLeft={46}  fontSize={14} fontWeight={"medium"}>Collections</Box>
+          <Box marginLeft={36}  fontSize={14} fontWeight={"medium"}>Collections</Box>
           </Box>
         <Spacer />
         <Box flexBasis="1/2" marginRight={2} className="rotate-90">
-          <Icon as={RxDotFilled} fontWeight="bold" fontSize={14} color={"white"}/>
-          <Icon as={RxDotFilled} fontWeight="bold" fontSize={14} color={"white"}/>
+          <Icon as={RxDotFilled} fontWeight="bold" fontSize={12} color={"white"}/>
+          <Icon as={RxDotFilled} fontWeight="bold" fontSize={12} color={"white"}/>
         </Box>
       </Flex>
-      <Flex h={32} w={242}  borderRadius={100} bg={"rgba(255, 255, 255, 0.05)"} paddingX={16} marginTop={10} marginBottom={10} marginX={"auto"} paddingY={8} alignItems={"center"} fontSize={12}>
+      <Flex height={32} width={242}  borderRadius={8} bg={"rgba(255, 255, 255, 0.05)"} paddingX={16} marginTop={29} marginX={"auto"} justify={"space-between"} paddingY={8} alignItems={"center"} fontSize={12}>
        
-          <Box color={"white"} fontSize={12} marginLeft={12}>My Collections</Box>
+          <Box color={"white"} fontSize={12} marginY={10}>My Collections</Box>
         <Spacer />
-        <Box>
-          <Icon as={ChevronRightIcon} fontSize={18} />
+        <Box marginY={11}>
+          <Icon as={ChevronRightIcon} fontSize={10} fontWeight={"bold"}/>
         </Box>
       </Flex>
-      <SimpleGrid columns={2} spacing={12} marginTop={12} paddingX={12}>
+      <SimpleGrid columns={2} gap={12} marginTop={12} paddingX={12}>
   <Box h={134} w={115}
   borderRadius={10}
   bgImage="url('https://s3-alpha-sig.figma.com/img/9929/a468/00aae90e0a56a6f7a8fed770ad392db4?Expires=1676851200&Signature=lxifHV-0ndNBfigN8Yo~Ogbwap5dsW2MRhC8cacHgs4boGIhRXlPoAOj8jOhqkHybttt2p~jAIsdRslfJkSwdBc3rj7ws9rgBj5x7RmQPrXRZsn~I7JuiJ4t3EDvD4I8tJ3bWQaC8g60HIvafFvma~nsRYfxEMUE5CseOFXyCAJanXyIjgEx-6ntRYmcpHLS3coWe6f-LWQNS9WYiDVAcELx3rlcF619SJBScmhHLKIi1YGwQQ218NCas69xWDHpy01YtcsCCGrjj2MSHo9hLmNby~N6X6siN66v5lW~nlEWtdGr8~JR9TbPnBjf0YeO5npRefqXl76fPkKiDHFjMA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4')"
