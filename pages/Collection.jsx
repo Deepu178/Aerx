@@ -23,23 +23,23 @@ export default function Collection() {
   return (
     <Box bg={"black"} height={"800"} className="overflow-y-hidden font-open">
     <Box w={266} borderRadius={15} bg="rgba(255, 255, 255, 0.07)" color="white"  overflow='hidden' height={652} marginLeft={1150} className="rounded-3xl overflow-y-hidden" marginTop={24}>
-      <Flex marginX={"auto"} height={12} marginTop={15} fontSize={14} fontFamily={"sans-serif"} paddingX={10}>
+      <Flex marginX={"auto"} height={26} marginTop={15} fontSize={14} fontFamily={"sans-serif"} paddingX={10}>
         
         <Box flexBasis="1/2" fontSize={14} marginLeft={14} marginRight={25} >
-        <Box className="-rotate-[27deg]" position={"absolute"}>
-          <Box background={"rgba(255, 255, 255, 0.4)"} width={15} height={15} marginLeft={2} position={"absolute"} className="skew-y-[20deg] skew-x-[45deg]" rounded={2} zIndex={3}></Box>
-          <Box background={"#FFC93F"} width={15} height={15}  marginTop={7} marginLeft={2} className="skew-x-[45deg] skew-y-[20deg]" zIndex={2} rounded={2}></Box>
-          <Box background={"#EDAF10"} width={15} height={15}  marginLeft={2} marginTop={1}  className="skew-x-[45deg] skew-y-[20deg]" zIndex={1} rounded={2}></Box>
+        <Box className="-rotate-[32deg] skew-x-[-22deg]" position={"absolute"}>
+          <Box background={"rgba(255, 255, 255, 0.4)"} width={17} height={17} marginLeft={2} marginTop={3} position={"absolute"} className="skew-y-[8deg] skew-x-[40deg]" rounded={2} zIndex={3}></Box>
+          <Box background={"#FFC93F"} width={17} height={17}  marginTop={7} marginLeft={2} position={"absolute"} className="skew-x-[40deg] skew-y-[8deg]" zIndex={2} rounded={2}></Box>
+          <Box background={"#EDAF10"} width={17} height={17}  marginLeft={2} marginTop={11} position={"absolute"} className="skew-x-[40deg] skew-y-[8deg]" zIndex={1} rounded={2}></Box>
           </Box>
-          <Box marginLeft={36}  fontSize={14} fontWeight={"medium"}>Collections</Box>
+          <Box marginLeft={36}  fontSize={14} fontWeight={"medium"} className="my-auto">Collections</Box>
           </Box>
         <Spacer />
         <Box flexBasis="1/2" marginRight={2} className="rotate-90">
-          <Icon as={RxDotFilled} fontWeight="bold" fontSize={12} color={"white"}/>
-          <Icon as={RxDotFilled} fontWeight="bold" fontSize={12} color={"white"}/>
+          <Icon as={RxDotFilled} fontWeight="bold" fontSize={18} color={"grey"}/>
+          <Icon as={RxDotFilled} fontWeight="bold" fontSize={18} color={"grey"}/>
         </Box>
       </Flex>
-      <Flex height={32} width={242}  borderRadius={8} bg={"rgba(255, 255, 255, 0.05)"} paddingX={16} marginTop={29} marginX={"auto"} justify={"space-between"} paddingY={8} alignItems={"center"} fontSize={12}>
+      <Flex height={32} width={242}  borderRadius={8} bg={"rgba(255, 255, 255, 0.05)"} paddingX={16} marginTop={15} marginX={"auto"} justify={"space-between"} paddingY={8} alignItems={"center"} fontSize={12}>
        
           <Box color={"white"} fontSize={12} marginY={10}>My Collections</Box>
         <Spacer />
